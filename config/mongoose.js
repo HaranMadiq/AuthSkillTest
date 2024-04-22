@@ -9,7 +9,6 @@ const encodedPassword = encodeURIComponent('1234', 'utf8');
 // Create the MongoDB connection URL with the encoded password
 const dbURI = `mongodb+srv://himadrinayak:${password}@cluster0.h7n86ah.mongodb.net?retryWrites=true&w=majority`;
 
-mongodb+srv://himadrinayak:${password}@cluster0.h7n86ah.mongodb.net?retryWrites=true&w=majority
 // Connect to the MongoDB server with the provided URL and options 
 mongoose.connect(dbURI, {
     // Options can be added here if needed
