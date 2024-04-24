@@ -27,7 +27,7 @@ module.exports.loginPage = function (req, res) {
 
 // rendering to the reset page
 module.exports.resetPage = function (req, res) {
-  return res.render("reset_Password");
+  return res.render("reset_password");
 };
 
 // signup function
